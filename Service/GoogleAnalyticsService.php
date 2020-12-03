@@ -110,7 +110,7 @@ class GoogleAnalyticsService {
 
         if (isset($metrics) && is_array($metrics)) {
 
-            $this->reportingDimensions = [];
+            $this->reportingMetrics = [];
 
             foreach ($metrics as $metric) {
 
